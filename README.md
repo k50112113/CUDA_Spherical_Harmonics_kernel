@@ -1,5 +1,8 @@
 # CUDA_Spherical_Harmonics_kernel
-This is a CUDA kernel repository that provides spherical harmonics
+This is a CUDA kernel repository that provides spherical harmonics, which outputs the identical results as Boost package:
+
+	boost::math::spherical_harmonic_r(n, m, theta, phi);
+	boost::math::spherical_harmonic_i(n, m, theta, phi);
 
 Reference
 
